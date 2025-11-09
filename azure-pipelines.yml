@@ -10,11 +10,11 @@ trigger:
 
 variables:
   # Customize these values
-  acrName: 'myacr123'                     # ACR name (without .azurecr.io)
-  acrLoginServer: 'myacr123.azurecr.io'   # ACR login server
+  acrName: 'akhileshrepo'                     # ACR name (without .azurecr.io)
+  acrLoginServer: 'akhileshrepo.azurecr.io'   # ACR login server
   imageName: 'sample-app'
-  aksResourceGroup: 'myResourceGroup'     # Resource group containing AKS
-  aksClusterName: 'myAKSCluster'          # AKS cluster name
+  aksResourceGroup: 'akhilesh'                # Resource group containing AKS
+  aksClusterName: 'akcluster'                 # AKS cluster name
   kubernetesManifest: 'deployment.yaml'
   tag: '$(Build.BuildId)'
 
